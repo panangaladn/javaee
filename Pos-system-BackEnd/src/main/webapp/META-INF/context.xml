@@ -1,0 +1,6 @@
+<Context>
+    <Resource name="jdbc/PosSystem" auth="Container" type="javax.sql.DataSource"
+              maxTotal="10" maxIdle="8" maxWaitMillis="-1"
+              username="root" password="Isuru@123" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/I_Pos?createDatabaseIfNotExist=true"/>
+</Context>
